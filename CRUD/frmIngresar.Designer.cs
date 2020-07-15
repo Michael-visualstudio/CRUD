@@ -108,7 +108,7 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(432, 161);
+            this.label7.Location = new System.Drawing.Point(495, 158);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(46, 13);
             this.label7.TabIndex = 6;
@@ -117,7 +117,7 @@
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(432, 191);
+            this.label8.Location = new System.Drawing.Point(495, 191);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(31, 13);
             this.label8.TabIndex = 7;
@@ -176,7 +176,7 @@
             // 
             // txtEstatura
             // 
-            this.txtEstatura.Location = new System.Drawing.Point(498, 158);
+            this.txtEstatura.Location = new System.Drawing.Point(613, 158);
             this.txtEstatura.MaxLength = 3;
             this.txtEstatura.Name = "txtEstatura";
             this.txtEstatura.Size = new System.Drawing.Size(81, 20);
@@ -184,7 +184,7 @@
             // 
             // txtPeso
             // 
-            this.txtPeso.Location = new System.Drawing.Point(498, 188);
+            this.txtPeso.Location = new System.Drawing.Point(613, 188);
             this.txtPeso.MaxLength = 6;
             this.txtPeso.Name = "txtPeso";
             this.txtPeso.Size = new System.Drawing.Size(81, 20);
@@ -192,7 +192,7 @@
             // 
             // btnGuardar
             // 
-            this.btnGuardar.Location = new System.Drawing.Point(515, 15);
+            this.btnGuardar.Location = new System.Drawing.Point(619, 15);
             this.btnGuardar.Name = "btnGuardar";
             this.btnGuardar.Size = new System.Drawing.Size(75, 33);
             this.btnGuardar.TabIndex = 16;
@@ -202,7 +202,7 @@
             // 
             // btnNuevo
             // 
-            this.btnNuevo.Location = new System.Drawing.Point(515, 49);
+            this.btnNuevo.Location = new System.Drawing.Point(619, 51);
             this.btnNuevo.Name = "btnNuevo";
             this.btnNuevo.Size = new System.Drawing.Size(75, 31);
             this.btnNuevo.TabIndex = 17;
@@ -211,7 +211,7 @@
             // 
             // btnCerrar
             // 
-            this.btnCerrar.Location = new System.Drawing.Point(515, 83);
+            this.btnCerrar.Location = new System.Drawing.Point(619, 83);
             this.btnCerrar.Name = "btnCerrar";
             this.btnCerrar.Size = new System.Drawing.Size(75, 31);
             this.btnCerrar.TabIndex = 17;
@@ -229,14 +229,14 @@
             this.dgPersonas.Location = new System.Drawing.Point(12, 224);
             this.dgPersonas.Name = "dgPersonas";
             this.dgPersonas.ReadOnly = true;
-            this.dgPersonas.Size = new System.Drawing.Size(596, 123);
+            this.dgPersonas.Size = new System.Drawing.Size(741, 235);
             this.dgPersonas.TabIndex = 18;
             // 
             // frmIngresar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(620, 359);
+            this.ClientSize = new System.Drawing.Size(765, 471);
             this.Controls.Add(this.dgPersonas);
             this.Controls.Add(this.btnCerrar);
             this.Controls.Add(this.btnNuevo);
@@ -259,6 +259,7 @@
             this.Controls.Add(this.label1);
             this.Name = "frmIngresar";
             this.Text = "Registro de datos personales";
+            this.Load += new System.EventHandler(this.frmIngresar_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgPersonas)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
